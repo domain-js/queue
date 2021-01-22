@@ -1,0 +1,24 @@
+{
+  "name": "@domain.js/queue",
+  "version": "0.1.0",
+  "description": "domain.js queue 通用模块",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && jest ./__test__ --coverage",
+    "test:watch": "export NODE_ENV=test && jest ./__test__ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/domain-js/queue/.git"
+  },
+  "keywords": ["queue", "domain.js"],
+  "author": "Redstone Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/domain-js/queue/issues"
+  },
+  "homepage": "https://github.com/domain-js/queue#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
